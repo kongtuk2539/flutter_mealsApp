@@ -4,15 +4,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meals/providers/favorites_provider.dart';
 
 class MealDetailsScreen extends ConsumerWidget {
-  const MealDetailsScreen({
-    super.key,
-    required this.meal,
-    // required this.onToggleFavorite
-  });
+  const MealDetailsScreen({super.key, required this.meal,});
 
   final Meal meal;
 
-  // final void Function(Meal meals) onToggleFavorite;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

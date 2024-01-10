@@ -29,16 +29,10 @@ class _FiltersScreenState extends ConsumerState<FiltersScreen> {
   @override
   void initState() {
     final activeFilters = ref.read(filtersProvider);
-
     _glutenFreeFilterSet = activeFilters[Filter.glutenFree]!;
     _lactoseFreeFilterSet = activeFilters[Filter.lactoseFree]!;
     _vegetarianFilterSet = activeFilters[Filter.vegetarian]!;
     _veganFilterSet = activeFilters[Filter.vegan]!;
-
-    // _glutenFreeFilterSet = widget.currentFilters[Filter.glutenFree]!;
-    // _lactoseFreeFilterSet = widget.currentFilters[Filter.lactoseFree]!;
-    // _vegetarianFilterSet = widget.currentFilters[Filter.vegetarian]!;
-    // _veganFilterSet = widget.currentFilters[Filter.vegan]!;
     super.initState();
   }
 
@@ -48,18 +42,6 @@ class _FiltersScreenState extends ConsumerState<FiltersScreen> {
       appBar: AppBar(
         title: const Text('Your Filters'),
       ),
-      // drawer: MainDrawer(
-      //   onSelectScreen: (identifier) {
-      //     Navigator.of(context).pop();
-      //     if (identifier == 'meals') {
-      //       Navigator.of(context).pushReplacement(
-      //         MaterialPageRoute(
-      //           builder: (ctx) => const TabsScreen(),
-      //         ),
-      //       );
-      //     }
-      //   },
-      // ),
       body: PopScope(
         canPop: true,
         onPopInvoked: (didPop) async {
@@ -71,12 +53,6 @@ class _FiltersScreenState extends ConsumerState<FiltersScreen> {
               Filter.vegan: _veganFilterSet,
             });
           }
-          // Navigator.of(context).pop({
-          //   Filter.glutenFree: _glutenFreeFilterSet,
-          //   Filter.lactoseFree: _lactoseFreeFilterSet,
-          //   Filter.vegetarian: _vegetarianFilterSet,
-          //   Filter.vegan: _veganFilterSet,
-          // });
         },
         child: Column(
           children: [
