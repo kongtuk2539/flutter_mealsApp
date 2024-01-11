@@ -101,7 +101,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Toast_Hawaii_RZ.jpg/1280px-Toast_Hawaii_RZ.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -130,7 +130,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6HASPARCZHYNN4XTUYT7H6PTE.jpg&w=1200',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -161,7 +161,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1280px-Wiener-Schnitzel02.jpg',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -198,7 +198,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://www.acouplecooks.com/wp-content/uploads/2021/07/Smoked-Salmon-Salad-010.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -233,7 +233,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://www.foodiewithfamily.com/wp-content/uploads/2040/06/Creamy-Orange-Mousse-2-600x900.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -268,7 +268,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://www.marthastewart.com/thmb/hYBu4WxREoHdCZ4l_8ryGZjqMLQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-basic-pancakes-horiz-1022_0-f13ba897aba6423db7901ca826595244.jpgitokXQMZkp_j',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -299,7 +299,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+        'https://salu-salo.com/wp-content/uploads/2017/08/Creamy-Mild-Chicken-Curry.jpg.webp',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -332,7 +332,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://twoplaidaprons.com/wp-content/uploads/2022/02/chocolate-souffle-with-ganache.jpg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -383,7 +383,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://img.sunset02.com/sites/default/files/image/recipes/su/10/06/tomato-salad-su-x.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
